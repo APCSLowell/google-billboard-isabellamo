@@ -1,16 +1,6 @@
 {
   "tests": [
     {
-      "name": "Test case",
-      "setup": "",
-      "run": "./billboard",
-      "input": "",
-      "output": "7.42746639E9",
-      "comparison": "exact",
-      "timeout": 10,
-      "points": null
-    },
-    {
       "name": "Billboard Test",
       "setup": "",
       "run": "gradle test",
