@@ -18,7 +18,7 @@ public void draw(){ //not needed for this assignment
 
 }  
 
-public boolean isPrime(double num){
+public static boolean isPrime(double num){
   boolean decision = true;
   
   if (num < 2){
