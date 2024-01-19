@@ -1,5 +1,5 @@
 public final static String e = "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435";  
-public void setup() {            
+public static void setup() {            
     String digits = e.substring(2,12);
     double dNum = Double.parseDouble(digits); 
     
@@ -17,6 +17,10 @@ public void setup() {
 public void draw(){ //not needed for this assignment
 
 }  
+//The main() method is Java's version of setup()
+public static void main(String[[] args){
+    setup();
+}
 
 public static boolean isPrime(double num){
   boolean decision = true;
