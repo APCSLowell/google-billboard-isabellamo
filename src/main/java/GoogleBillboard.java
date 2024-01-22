@@ -17,7 +17,7 @@ public static void setup() {
 }  
 
 //The main() method is Java's version of setup()
-public static void main(String[[] args){
+public static void main(String[] args){
     setup();
 }
 
